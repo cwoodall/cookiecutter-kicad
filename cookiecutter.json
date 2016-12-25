@@ -1,0 +1,16 @@
+{
+    "full_name": "Your name",
+    "email": "Your address email (eq. you@example.com)",
+    "github_username": "Your github username",
+    "project_name": "Name of the project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "A short description of the project",
+    "release_date": "{% now 'local' %}",
+    "year": "yyyy",
+    "version": "0.1.0",
+    "license": "CC BY 4.0",
+    "project_type": "OSHW",
+    "license_link": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "license_icon": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
