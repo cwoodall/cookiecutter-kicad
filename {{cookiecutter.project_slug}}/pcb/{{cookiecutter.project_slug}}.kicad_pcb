@@ -14,13 +14,13 @@
 
   (page USLedger)
   (title_block
-    (title {{cookiecutter.project_name}})
-    (rev {{cookiecutter.version}})
-    (company {{cookiecutter.full_name}})
-    (comment 1 {{cookiecutter.year}})
-    (comment 2 {{cookiecutter.project_type}})
-    (comment 3 {{cookiecutter.license}})
-    (comment 4 github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}})
+    (title "{{cookiecutter.project_name}}")
+    (rev "{{cookiecutter.version}}")
+    (company "{{cookiecutter.full_name}}")
+    (comment 1 "{{cookiecutter.year}}")
+    (comment 2 "{{cookiecutter.project_type}}")
+    (comment 3 "{{cookiecutter.license}}")
+    (comment 4 "github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}")
   )
 
   (layers
