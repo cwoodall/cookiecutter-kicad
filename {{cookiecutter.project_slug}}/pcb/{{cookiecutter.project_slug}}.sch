@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 EELAYER 25 0
 EELAYER END
-$Descr USLedger 17000 11000
+$Descr {{cookiecutter.paper_size}} 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "{{cookiecutter.project_name}}"

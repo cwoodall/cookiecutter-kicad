@@ -12,7 +12,7 @@
     (nets 1)
   )
 
-  (page USLedger)
+  (page {{cookiecutter.paper_size}})
   (title_block
     (title "{{cookiecutter.project_name}}")
     (rev "{{cookiecutter.version}}")

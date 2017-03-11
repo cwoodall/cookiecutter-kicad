@@ -12,5 +12,7 @@
     "project_type": "OSHW",
     "license_link": "http://creativecommons.org/licenses/by/4.0/legalcode",
     "license_icon": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+    "paper_size": ["USLedger", "USLetter", "USLegal", "A", "B", "C", "D", "E",
+                   "A0", "A1", "A2", "A3", "A4"],
     "_extensions": ["jinja2_time.TimeExtension"]
 }
